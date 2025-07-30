@@ -55,7 +55,7 @@ class IntroHomePage extends StatelessWidget {
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(16),
                   ),
-                  color: Colors.white.withOpacity(0.85),
+                  color: Colors.white.withValues(alpha: 0.85),
                   child: Padding(
                     padding: const EdgeInsets.all(16.0),
                     child: Text(
