@@ -59,8 +59,8 @@ class IntroHomePage extends StatelessWidget {
                   child: Padding(
                     padding: const EdgeInsets.all(16.0),
                     child: Text(
-                      "Hello, My Name is Shakirullah",
-                      style: GoogleFonts.lato(
+                      "Hello, My Name is Shakirullah\nI am a Flutter Developer\nand Aspiring Mobile Engineer...\nI love creating beautiful apps\nthat solve real-world problems!",
+                      style: GoogleFonts.bitter(
                         fontSize: 20,
                         color: Colors.black87,
                         fontWeight: FontWeight.w600,
@@ -70,6 +70,16 @@ class IntroHomePage extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 24),
+              Text(
+                "Connect with me via",
+                style: GoogleFonts.bitter(
+                  fontSize: 20,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              const SizedBox(height: 16),
+              // Social Media Icons
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
@@ -79,6 +89,14 @@ class IntroHomePage extends StatelessWidget {
                   ),
                   IconButton(
                     icon: Icon(Icons.linked_camera, color: Colors.white),
+                    onPressed: () {},
+                  ),
+                  IconButton(
+                    icon: Icon(Icons.camera, color: Colors.white),
+                    onPressed: () {},
+                  ),
+                  IconButton(
+                    icon: Icon(Icons.add_a_photo_outlined, color: Colors.white),
                     onPressed: () {},
                   ),
                   // Add more icons as needed
